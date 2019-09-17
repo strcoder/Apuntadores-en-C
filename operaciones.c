@@ -35,30 +35,36 @@ int main(int argc, char const *argv[])
     return 0;
 }
 
+/* Guarda el resultado de la suma dentro del apuntado c */
 void suma (double *a, double *b, double *c) 
 {
     *c = *a + *b;
     return;
 }
 
+/* Guarda el resultado de la resta dentro del apuntado c */
 void resta (double *a, double *b, double *c) 
 {
     *c = *a - *b;
     return;
 }
 
+/* Guarda el resultado de la multiplicación dentro del apuntado c */
 void multiplicacion (double *a, double *b, double *c) 
 {
     *c = *a * *b;
     return;
 }
 
+
+/* Guarda el resultado de la división dentro del apuntado c */
 void division (double *a, double *b, double *c) 
 {
     *c = *a / *b;
     return;
 }
 
+/* Guarda el resultado del factorial del numero a dentro del apuntado c */
 void factorial (double *a, double *c) 
 {
     if (*a == 0) {
